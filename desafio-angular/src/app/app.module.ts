@@ -9,15 +9,21 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
+
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './components/menu/menu.component';
 import { HomeComponent } from './components/home/home.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    HomeComponent
+    HomeComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -25,6 +31,11 @@ import { HomeComponent } from './components/home/home.component';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatListModule,
+    BrowserAnimationsModule
+  
     
   ],
   providers: [],

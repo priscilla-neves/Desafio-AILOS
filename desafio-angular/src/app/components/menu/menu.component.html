@@ -1,1 +1,14 @@
-<p>menu works!</p>
+<div class="side-nav-content">
+    <ul class="nav-list" [ngClass]="{'nav-list-open': sideNavStatus}" >
+        <img src="/assets/ailos-logo.png" height="70" >
+        
+        <li class="nav-list-item " *ngFor="let item of list"  (click)="SideNavToggled()">
+            <i class="{{item.icon}}"></i>
+            <span>
+                <a href="#">{{item.name}}</a>
+            </span>
+        </li>
+               
+    </ul>
+
+</div>

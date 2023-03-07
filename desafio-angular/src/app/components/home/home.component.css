@@ -1,28 +1,17 @@
-.page {
-    color: white;
-    padding: 0 1rem;
-    background: #f1f5f9;
-  }
+
+ .grid-container {
+  margin: 150px;
+  background-color: E8EFF2;
   
-  .page__box {
-    min-height: 180px;
-    background: #E7EEF1;
-    margin: 0 -1rem;
-    font-size: 36px;
-  }
-  
-  .page__content {
-    min-height: calc(100vh - 178px);
-    border-radius: 10px;
-    margin-top: -2rem;
-    background: #E7EEF1;
-    color: black;
-    font-size: 2rem;
-  }
-  
-  .page__content-data {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
+}
+
+.container{
+  background-color: E8EFF2;
+  width: auto;
+  height: auto;
+  display: flexbox;
+}
+p{
+  font-family: sans-serif;
+}
+

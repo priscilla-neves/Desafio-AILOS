@@ -15,6 +15,9 @@ import { MatListModule } from '@angular/material/list';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './components/menu/menu.component';
 import { HomeComponent } from './components/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -34,9 +37,11 @@ import { HomeComponent } from './components/home/home.component';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
-    BrowserAnimationsModule
-  
-    
+    BrowserAnimationsModule,
+    HttpClientModule,
+    MatCardModule,
+    MatGridListModule 
+
   ],
   providers: [],
   bootstrap: [AppComponent]

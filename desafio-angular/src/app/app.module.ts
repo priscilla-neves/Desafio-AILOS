@@ -18,6 +18,9 @@ import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from "@angular/material/input";
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 @NgModule({
@@ -25,7 +28,7 @@ import { MatCardModule } from '@angular/material/card';
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    HomeComponent,
+    HomeComponent
    
   ],
   imports: [
@@ -40,7 +43,11 @@ import { MatCardModule } from '@angular/material/card';
     BrowserAnimationsModule,
     HttpClientModule,
     MatCardModule,
-    MatGridListModule 
+    MatGridListModule,
+    FormsModule,
+    MatInputModule,
+    ReactiveFormsModule,
+    MatSnackBarModule  
 
   ],
   providers: [],
